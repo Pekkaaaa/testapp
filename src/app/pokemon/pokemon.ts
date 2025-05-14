@@ -1,5 +1,10 @@
-import { Ability } from './ability';
-
+export class Ability {
+    constructor(
+      public name: string,
+      public url: string
+    ) {}
+}
+  
 export interface Sprites {
   front_default: string;
   back_default: string;
